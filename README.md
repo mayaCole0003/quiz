@@ -1,13 +1,3 @@
-# Title
+Modelling a Buzzfeed quiz
 
-*description*
-
-[deployed url](http://url-if-deployed-here)
-
-## What Worked Well
-
-## What Didn't
-
-## Extra Credit
-
-## Screenshots
+[deployed url](https://lab2-quizapp-mayafcole.onrender.com/)
