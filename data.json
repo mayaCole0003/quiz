@@ -1,0 +1,320 @@
+{
+    "outcomes": {
+      "outcome1": {
+        "img": "emo.png",
+        "text": "Emo",
+        "modal": {
+          "title": "Emo",
+          "img": "emo.png",
+          "content": "Your favorite color is black, like your soul. Most days you wear skinny jeans paired with your jet-black hair with bangs. You would never wear pink."
+        }
+      },
+      "outcome2": {
+        "img": "coquette.png",
+        "text": "Coquette",
+        "modal": {
+        "img": "coquette.png",
+          "title": "Coquette",
+          "content": "You like all things girly and frilly. Your favorite color light pink and your favorite accessory is a bow."
+        }
+      },
+      "outcome3": {
+        "img": "Y2K.png",
+        "text": "Y2K",
+        "modal": {
+          "title": "Y2K",
+          "img": "Y2K.png",
+          "content": "You're style is loud and fun! Your favorite prints consist of neons and cheetah. To you, the only suitable kind of jeans are low rise."
+        }
+      },
+      "outcome4": {
+        "img": "dark.png",
+        "text": "Dark Academia",
+        "modal": {
+          "title": "Dark Academia",
+          "img": "dark.png",
+          "content": "You love reading and Gothic architecture! 99% of your closet is tweed and dark brown. You'd fit right in the Potterverse."
+        }
+      },
+      "outcome5": {
+        "img": "office.png",
+        "text": "Office Siren",
+        "modal": {
+          "title": "Office Siren",
+          "img": "office.png",
+          "content": "Your style is sleek and professional BUT not boring. Greys, blacks, and whites are typical color palette. You love a pair of non-prescription eyeglasses."
+        }
+      },
+      "outcome6": {
+        "img": "outcome6.jpg",
+        "text": "Clowncore",
+        "modal": {
+          "title": "Clowncore",
+          "img": "clown.png",
+          "content": "Your style is fun, childlike, and most importantly full of bright colors! Your favorite print is polka dots, of course. Your most-worn color is red!"
+        }
+      }
+    },
+
+    "outcomeError": {
+        "img": "error.png",
+        "text": "Error",
+        "modal": {
+          "title": "Error",
+          "img": "error.png",
+          "content": "Please answer all the questions!!"
+        }
+      },
+
+  "questions": [
+      {
+
+          "question_name": "What is your favorite color?",
+          "answers": [
+              {
+                  "text": "Black",
+                  "img_url": "black.png",
+                  "outcome": "outcome1"
+              },
+              {
+                  "text": "Pink",
+                  "img_url": "pink.png",
+                  "outcome": "outcome2"
+              },
+              {
+                  "text": "Blue",
+                  "img_url": "blue.png",
+                  "outcome": "outcome3"
+              },
+              {
+                  "text": "Red",
+                  "img_url": "red.png",
+                  "outcome": "outcome4"
+              },
+              {
+                  "text": "Orange",
+                  "img_url": "orange.png",
+                  "outcome": "outcome5"
+              },
+              {
+                  "text": "Yellow",
+                  "img_url": "yellow.png",
+                  "outcome": "outcome6"
+              }
+          ]
+      },
+      {
+          "question_name": "What is your favorite part of the burger?",
+          "answers": [
+              {
+                  "text": "Cheese",
+                  "img_url": "cheese.jpg",
+                  "outcome": "outcome6"
+              },
+              {
+                  "text": "Tomato",
+                  "img_url": "tomato.jpg",
+                  "outcome": "outcome5"
+              },
+              {
+                  "text": "Lettuce",
+                  "img_url": "lettuce.png",
+                  "outcome": "outcome4"
+              },
+              {
+                  "text": "Bread",
+                  "img_url": "burgerBun.png",
+                  "outcome": "outcome3"
+              },
+              {
+                  "text": "Patty",
+                  "img_url": "patty.png",
+                  "outcome": "outcome2"
+              },
+              {
+                  "text": "Pickles",
+                  "img_url": "pickles.jpg",
+                  "outcome": "outcome1"
+              }
+          ]
+      },
+      {
+          "question_name": "What is your favorite flower?",
+          "answers": [
+              {
+                  "text": "Tulip",
+                  "img_url": "tulips.jpeg",
+                  "outcome": "outcome4"
+              },
+              {
+                  "text": "Lily",
+                  "img_url": "lilies.jpeg",
+                  "outcome": "outcome5"
+              },
+              {
+                  "text": "Daisy",
+                  "img_url": "daisy.jpeg",
+                  "outcome": "outcome6"
+              },
+              {
+                  "text": "Lavender",
+                  "img_url": "lav.jpeg",
+                  "outcome": "outcome1"
+              },
+              {
+                  "text": "Rose",
+                  "img_url": "rose.jpeg",
+                  "outcome": "outcome2"
+              },
+              {
+                  "text": "Daffodil",
+                  "img_url": "daf.jpeg",
+                  "outcome": "outcome3"
+              }
+          ]
+      },
+      {
+          "question_name": "Which is your favorite cartoon character?",
+          "answers": [
+              {
+                  "text": "Dracula",
+                  "img_url": "Dracula.jpeg",
+                  "outcome": "outcome4"
+              },
+              {
+                  "text": "Dee dee",
+                  "img_url": "Didi.jpeg",
+                  "outcome": "outcome5"
+              },
+              {
+                  "text": "oscar",
+                  "img_url": "Oscar.jpeg",
+                  "outcome": "outcome6"
+              },
+              {
+                  "text": "Baljeet",
+                  "img_url": "Baljeet.jpeg",
+                  "outcome": "outcome3"
+              },
+              {
+                  "text": "BMO",
+                  "img_url": "BMO.jpeg",
+                  "outcome": "outcome2"
+              },
+              {
+                  "text": "Shaggy",
+                  "img_url": "Shaggy.png",
+                  "outcome": "outcome1"
+              }
+          ]
+      },
+      {
+          "question_name": "Which is your favorite candy?",
+          "answers": [
+              {
+                  "text": "Kitkat",
+                  "img_url": "kitKat.jpeg",
+                  "outcome": "outcome1"
+              },
+              {
+                  "text": "Sour Patch Kids",
+                  "img_url": "sour.jpeg",
+                  "outcome": "outcome2"
+              },
+              {
+                  "text": "Dum Dums",
+                  "img_url": "dum.jpeg",
+                  "outcome": "outcome3"
+              },
+              {
+                  "text": "Twizzlers",
+                  "img_url": "Twizzlers.jpeg",
+                  "outcome": "outcome4"
+              },
+              {
+                  "text": "Snickers",
+                  "img_url": "snickers.jpeg",
+                  "outcome": "outcome5"
+              },
+              {
+                  "text": "Starbursts",
+                  "img_url": "bursts.jpg",
+                  "outcome": "outcome6"
+              }
+          ]
+      },
+      {
+          "question_name": "Which is your favorite activity?",
+          "answers": [
+              {
+                  "text": "Baking",
+                  "img_url": "baking.jpeg",
+                  "outcome": "outcome2"
+              },
+              {
+                  "text": "Painting",
+                  "img_url": "painting.jpeg",
+                  "outcome": "outcome3"
+              },
+              {
+                  "text": "Reading",
+                  "img_url": "reading.jpeg",
+                  "outcome": "outcome4"
+              },
+              {
+                  "text": "Pilates",
+                  "img_url": "pilates.jpeg",
+                  "outcome": "outcome5"
+              },
+              {
+                  "text": "Skateboarding",
+                  "img_url": "skate.jpeg",
+                  "outcome": "outcome6"
+              },
+              {
+                  "text": "Watching TV",
+                  "img_url": "chilling.jpeg",
+                  "outcome": "outcome1"
+              }
+          ]
+      },
+      {
+          "question_name": "Which is your favorite animal?",
+          "answers": [
+              {
+                  "text": "Fish",
+                  "img_url": "fish.png",
+                  "outcome": "outcome1"
+              },
+              {
+                  "text": "Cat",
+                  "img_url": "cat.png",
+                  "outcome": "outcome2"
+              },
+              {
+                  "text": "Yak",
+                  "img_url": "yak.png",
+                  "outcome": "outcome3"
+              },
+
+              {
+                "text": "Cow",
+                "img_url": "cow.png",
+                "outcome": "outcome4"
+            },
+            {
+                "text": "Mouse",
+                "img_url": "mouse.png",
+                "outcome": "outcome5"
+            },
+            {
+                "text": "Hedgehog",
+                "img_url": "hedge.png",
+                "outcome": "outcome6"
+            }
+        ]
+    }
+]
+}
+
+                  

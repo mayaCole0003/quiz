@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Maya's Buzzfeed</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+<div class="banner">
+    <img class="bannerImage" src="newBanner.png" alt="random" />
+    <h1 id="quizTitle">What is your asethetic?</h1>
+</div>
+
+<div id="questionsContainer"></div>
+
+<div class="DoneBtnContainer">
+<button class="DoneBtn" id="DoneBtn">Find out results!!</button>
+</div>
+
+
+
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalTitle">Modal title</h5>
+        </div>
+        <div class="modal-body">
+          <img id="modalImg" src="" alt="Modal Image">
+          <p id="modalContent">Modal content</p>
+                </div>
+        <div class="modal-footer">
+          <button type="button" class="close" data-bs-dismiss="modal">X</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+  <script src="main.js"></script>
+  <script>
+      $(document).ready(function() {
+          main();
+      });
+  </script>
+  
+  </body>
+  </html>
