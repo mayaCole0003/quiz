@@ -108,7 +108,7 @@ $(document).ready(function() {
       console.log("data:", modalData);
       $('#modalTitle').text(modalData.title);
       $('#modalImg').attr('src', modalData.img);
-    $('#modalContent').text(modalData.content);
+      $('#modalContent').text(modalData.content);
       $('#exampleModal').modal('show');
   }
   }
@@ -136,7 +136,7 @@ $(document).ready(function() {
           }).toArray();
 
           if (choices.length < quizData.questions.length) {
-            console.log("not ev=nough answwres");
+            console.log("not enough answers");
             triggerErrorModal();
             return; 
         }

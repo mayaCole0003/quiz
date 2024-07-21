@@ -36,14 +36,11 @@
 }
 
 .modal-dialog {
-    width: 800px;
-  
-    
+    max-width: 800px;
+    margin: 30px auto;
 }
 
 .modal-content {
-    margin-left: 120px;
-    margin-bottom: 60px;
     padding: 20px;
     border-radius: 10px;
     background-color: #ffffff;
